@@ -62,10 +62,6 @@ public class InGameSystem
         {
             GameRoot.Instance.ActionQueueSystem.OnFirstInitCall();
         });
-
-        GameRoot.Instance.UISystem.OpenUI<PopupInGame>(popup => {
-            popup.Init();
-        });
     }
 
     public void NextStage()
