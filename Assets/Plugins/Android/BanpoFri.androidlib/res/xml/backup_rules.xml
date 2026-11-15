@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+  <!-- Local progress must start fresh when the game is reinstalled. -->
+  <exclude domain="external" path="Master.dat" />
+  <exclude domain="external" path="Master.dat.backup" />
+  <exclude domain="external" path="Master.dat.savebackup" />
+</full-backup-content>

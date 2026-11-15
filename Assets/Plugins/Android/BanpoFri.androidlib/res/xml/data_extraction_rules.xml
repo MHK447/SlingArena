@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+  <cloud-backup>
+    <exclude domain="external" path="Master.dat" />
+    <exclude domain="external" path="Master.dat.backup" />
+    <exclude domain="external" path="Master.dat.savebackup" />
+  </cloud-backup>
+  <device-transfer>
+    <exclude domain="external" path="Master.dat" />
+    <exclude domain="external" path="Master.dat.backup" />
+    <exclude domain="external" path="Master.dat.savebackup" />
+  </device-transfer>
+</data-extraction-rules>

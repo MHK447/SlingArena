@@ -1,0 +1,698 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 08a828bfbd41f48f29c62c948b8cf964
+  m_SerializeEntries:
+  - m_GUID: 0463480f108ae4c10b52cccce80da2e0
+    m_Address: Dice_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 055ee5af5d3aaca45abf507622c5280e
+    m_Address: UI/Page/LoadingBasic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0615099b0271d4ac68016901b38c6456
+    m_Address: Effect/SparkEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0736b420c7c82443e81918f59b90a28d
+    m_Address: Effect/RewardEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0810dffa21e114950909bf85d88a6555
+    m_Address: EnemyUnit_Warrior_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09586fe188718df4f94dd29a764fab9b
+    m_Address: EnemyUnit_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c030971aaae548fbb19f33f6e752808
+    m_Address: Show_Dice_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e8c1b37ff4ce456aa650d8049613a32
+    m_Address: Effect/IceEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12db439c4820a480f9e9a2c9ccfece50
+    m_Address: Effect/FireBurnEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13c699775dd24d8469b6d3226c7b6a72
+    m_Address: UI/Component/GoodsEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15a9ec71d1d9c415a883d66347549f80
+    m_Address: Atlas_Stage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 160007466a3b94ffba23a2e768f61a65
+    m_Address: UI/InGame/UnitHpProgress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1840eb65bd4c54e9299938e0651895a0
+    m_Address: Atlas_UI_CommonDice
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c439f6c48e6d4ade8b73212a3eeb7df
+    m_Address: Effect/DamageUpEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ceb8d2d30760ce48ab24b393b96c2cd
+    m_Address: UI/Popup/PopupStageResult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ddce761f390f014aa94071f8c1c0812
+    m_Address: UI/Popup/PopupToastmessage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f82d1fac5a0b49a6bca581759d0bf20
+    m_Address: StageMap_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24a3b8d69579544b79b2076bfbe2e863
+    m_Address: Effect/HealEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27d20a9de49095742809aaa333aeb533
+    m_Address: UI/Popup/PopupSaveLoad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cc57ef6e5cca4adfaf091062484f19b
+    m_Address: Unit_Warrior_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cda990e2423bbf4892e6590ba056729
+    m_Address: InGameTycoon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32558cfc713bb4ae79da8a832c4cf943
+    m_Address: Effect/EvasionUpEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 332460a2cd80e1845b356a507f424fca
+    m_Address: UI/Popup/PopupWelComeBack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35fb5e3ad66c24f98858e78b1c18404e
+    m_Address: Effect/BombEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3821a0096d4144c82a8856055397d97e
+    m_Address: Atlas_UI_InGame
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c1c2a69147e841d5be9a511cdff0e01
+    m_Address: Effect/DiceBombEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c8e62fc5caf0e74da25b6972eb96619
+    m_Address: UI/Popup/PopupOption
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3db4cf1b42e664536962d4aedc20b761
+    m_Address: EnemyUnit_Warrior_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e7022f4f5a1147f2ac641b801bec555
+    m_Address: Effect/TextEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4093fe99dacfbb742a73556ea5d2518d
+    m_Address: Effect/IceBombEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 422959811759b4acf9e553598a74be18
+    m_Address: UI/Component/RewardEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e3be70f18e74797ad1eb75a9d116cb
+    m_Address: UI/Page/PageFade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45bcd220a315d4d19897535e0ca549b3
+    m_Address: PlayerBlock_Top
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45e66032ffdd546999c50742b0875891
+    m_Address: UI/InGame/CastleHpProgress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49d11929ccf7b42f58335a251b3a8e4c
+    m_Address: GameRoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a17f5890521e493290e7d70e0302289
+    m_Address: Effect/PoisonEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cb4c80f5ac67417c9bca2a81b0facf9
+    m_Address: Config
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f2695ff90a554375b461758091c8fa9
+    m_Address: UI/Popup/PopupRevival
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ff67be5265df164e835bfe6702e6934
+    m_Address: Tutorial_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 503595630f1190749962bad6aa5f1ca9
+    m_Address: UI/Popup/PopupStageGiveup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 509f50e8b2c924ae981fc6d451efd0d1
+    m_Address: Tutorial_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d2b40cad9d3431aa64f8746e5bd2de
+    m_Address: Tutorial_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5528c7d945c7a4b74b37895cdceea0a5
+    m_Address: Tutorial_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5543fef1f65fd4ce1adb52fa586dcb95
+    m_Address: Show_Dice_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b2acbd9acf6a1745bcc16513d1353f8
+    m_Address: Effect/LavaEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d7591d6fb7b3e54f9c9ae8e581e9b31
+    m_Address: Effect/InfectionEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61033ca715c9f4a63bb82cf8fcb11801
+    m_Address: StageMap_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6233b4aa473a74ef5a9b93aae88c15c5
+    m_Address: UI/InGame/InGameHpProgress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6721bed0489fb47aeaf372d5460e654f
+    m_Address: StageMap_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a7678d3ebc1c46138acdf9fd7fddbd1
+    m_Address: StageMap_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6be574b52400343ce8740e62d7142e9a
+    m_Address: StageMap_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bf046e982c954a5fa1faae0e3082fc6
+    m_Address: EnemyUnit_Boss_103
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e6266a61980b48b986502aef38bbba6
+    m_Address: PlayerUnit_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7030c52910f964537b1888c87970ac40
+    m_Address: EnemyUnit_Boss_105
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739343599a5a34e8788e0e0254ad5064
+    m_Address: Tutorial_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7500b6d09474b473796141c020e34c4a
+    m_Address: ClearEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75d8cd281906a48cbb1460af5e58904d
+    m_Address: Effect/HitEffect_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77c8c9f5a12b8fd4faa5011e088d626a
+    m_Address: UI/Page/HUDTotal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 794c8340b0c5b4b51b41a9ad3753dd98
+    m_Address: EnemyUnit_Warrior_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79a5581f9439f4e25b7fc4d3c7a0b27f
+    m_Address: UI/InGame/CastleRepairComponent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79eb077efd1354a4a9ca653b55e70814
+    m_Address: Effect/AcainAttackEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dab99f7f4e5246d5a41a6c7cfbe08a5
+    m_Address: Tutorial_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e876748e66f15e4683981fe60c32f41
+    m_Address: UI/Popup/PagePackageVIP
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ff91ae8dd80546efb8179fb88b648cd
+    m_Address: EnemyUnit_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8004488da7e234e35a8251a48d26a4de
+    m_Address: Effect/TextEffectGetMoney
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8064005457dcd4361b0e57400f02a50c
+    m_Address: PlayerUnit_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80dbce52a3ac44505a100e327b7486a7
+    m_Address: EnemyUnit_Boss_101
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81968202a62f948c48ecd902d60dafab
+    m_Address: EnemyUnit_Warrior_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850fba72901914742b5e61be92a64878
+    m_Address: Effect/DiceMergeStarEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 884faa755d4c9478b81d517feeeb515a
+    m_Address: Effect/ThornEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88a92fea094b94404b3b225cf9556fa0
+    m_Address: Tables
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bfc54e5c5d154efab2be94457883d58
+    m_Address: Effect/LuckyEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8de91a3a77f4648608740120a3755481
+    m_Address: Effect/HitEffect_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ec3896daa0ff4f5b99e86a9afd5a6e2
+    m_Address: Effect/AbilityUpEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 916368f0a36f44918a9ef9d11030b5ec
+    m_Address: EnemyUnit_Warrior_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 935d3fbb978254b14a0e429e2b842353
+    m_Address: UI/Popup/PopupMessage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9555d9cb8349249eeb7a4b328dbe6c88
+    m_Address: Tutorial_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ebc3c8d09a94928ba04f980ad014b7
+    m_Address: UI/InGame/PlayerHpText
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97cca0146c8f04cbb9c26a29d9b1aaa6
+    m_Address: EnemyUnit_Archer_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b64066dd20d4479991c05de801f5119
+    m_Address: DmgNumberEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bd3d3b80a3004b7499d14aea397a625
+    m_Address: Effect/LightningEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d241786f8fff4ef1963738c2c301d20
+    m_Address: EnemyUnit_Warrior_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f2f9e4aea950466b968d1c682b336e7
+    m_Address: Atlas_UI_Equipment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a009fb2ec470d4ca3a6859ab3c7c5d3d
+    m_Address: UI/Popup/PopupMaterialInsufficent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a09bddef5548e45c8a445c62ed9cddf0
+    m_Address: Show_Dice_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a43b21062915e44d79ba7f6a5c3ded61
+    m_Address: HudCurrencyTop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4da728c5d0f24886993cf30d521a7c4
+    m_Address: Slime_Character_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a687165dee6fb4413b0ec8b949a94e5c
+    m_Address: Mine_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab1eb8c336163c044b5f7bd38b789591
+    m_Address: UI/Popup/PopupCashInsufficent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab3a21a289118475a96899d0357ba212
+    m_Address: EnemyUnit_Archer_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afce73965877647d3a4ccd2d00884d89
+    m_Address: EnemyUnit_Archer_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b047cfa6e0cb84aaf87c0238fad7a403
+    m_Address: EnemyUnit_Archer_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b629e5d7747654ba7b62044213f673d7
+    m_Address: Dice_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc1734beaa19441afb95e48d96a866e8
+    m_Address: UI/Popup/PopupContentsOpen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdc1aa5ae6f554e8a86df3acf12e2054
+    m_Address: Effect/DarknessEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bebd15218d84d4bba85be61637bab3e3
+    m_Address: Effect/ArmorUpEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfd60a41cd7eb4f5291f6bfc1b47b0f8
+    m_Address: Effect/DeadEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2856ae0514dc448ea05d70e39e4ed31
+    m_Address: EnemyUnit_Boss_104
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c51401cff4723f34182433cd65e3c962
+    m_Address: UI/Popup/PopupMessageTwoButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c56f1469f738d4b78b78e8d90f901dfb
+    m_Address: UI/Popup/PopupSelectEquipment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca539427454194cf3b741dd3baf027a0
+    m_Address: Effect/RewardThrowEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cabdd76f881954fe8aa1671018b1037c
+    m_Address: Effect/FireballEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb7dfac8ef6d34563bffe3e20a4c9e9d
+    m_Address: PlayerUnit_3_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc64a1962f45c47b0957b1fda4877d10
+    m_Address: Dice_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccc172d124f3b407fa4cf170cd3fa47c
+    m_Address: Effect/LowHuntersEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccca5f06e55b74d3a80fb5ae188988ff
+    m_Address: StageMap_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfc34132792f1418bb311c3f3b4c4542
+    m_Address: Effect/TextEffectMoneyUpgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b75c725782a4485970f8c567eb9637
+    m_Address: InGame/UpgradeEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b85e82da4cf40369002659b3c93230
+    m_Address: Effect/SkullHeadEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5723f450325d4415a430da85e850605
+    m_Address: EnemyUnit_Warrior_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7c4d362c1b724c09bb579e61b45e35b
+    m_Address: PlayerUnit_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d91cab8688aea4470b84dda49246f2be
+    m_Address: UI/InGame/EnemySpawnerHpProgress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9e5c231a9bf64c7db0a9e294846bebd
+    m_Address: Effect/SpriteThrowEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da338d5b354d34d019cef363f6dc976d
+    m_Address: Effect/VoltageShockEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbe9426b37249a941a783c4d731bf2c1
+    m_Address: UI/Popup/Review
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de2e504184c2f47388f8a37ffae83f3f
+    m_Address: UI/InGame/DiceProgressGuage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0c959a64dc6748afb94a70dcb3c9258
+    m_Address: EnemyUnit_Boss_102
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e25970413a0e3409a93ffcd544db880c
+    m_Address: EnemyUnit_Archer_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e28696ba63419e841a8e9036180e4504
+    m_Address: Effect/ItemMergeEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e36761918305346169223b3525417624
+    m_Address: PlayerUnit_1_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4b2c1ca2572b4762967f68bdb5e455c
+    m_Address: SoundPlayer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4e7294bc17034dc99297f4b764e4e85
+    m_Address: Atlas_UI_Common
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5143f4b5f94d42ac9f5cb0e420f62f6
+    m_Address: ChapterMap_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5616f17df23d4b82be2a6a456435482
+    m_Address: EnemyUnit_Warrior_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e79db2ae250114b60872db1045d1e18d
+    m_Address: Effect/RevivalEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e917fdf4b36e043568da4755f0d8c22b
+    m_Address: UI/Popup/PopupNewChapter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e9c22850c104158959515802066771
+    m_Address: PlayerUnit_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaf40df141e2d401f8b1473c21db19fd
+    m_Address: InGameChest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb7a38b8011e94c6696d3cdab29b2489
+    m_Address: EnemyUnit_Warrior_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecd50a0d11ed447a2afeeee80d77b83d
+    m_Address: PlayerUnit_3_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0ca8d44281544d80b1d19713b02755c
+    m_Address: Dice_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f37c468e5746f46938349cbf86bf262c
+    m_Address: Mine_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40de0a896015449e9bf8f4fbdb5492a
+    m_Address: EnemyUnit_Warrior_15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6137dce1f2824c6ab26e60ddc0d9bc4
+    m_Address: Dice_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb07b29bfba5a495eaca4e5d2c158799
+    m_Address: UI/Popup/PopupGoldCoinInsufficent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 33d34b1065dcd4c0db03f94efd6e0ee1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b3bd0c1025de94653bf6169efe3687eb, type: 2}
+    - {fileID: 11400000, guid: fff32d1af8a384d85ad81f460eaa9237, type: 2}

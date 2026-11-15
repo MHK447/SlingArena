@@ -1,0 +1,39 @@
+-keep class com.google.android.play.core.** { *; }
+-keep class com.google.googlesignin.** { *; }
+-keep class com.unity.androidnotifications.** { *; }
+-keep class io.thebackend.unity.** {*;}
+-keep class com.singular.sdk.** { *; }
+-keep public class com.android.installreferrer.** { *; }
+-keep public class com.singular.unitybridge.** { *; }
+
+# TinySauce analytics SDKs are also called through the Unity JNI bridge.
+-keep class com.facebook.unity.** { *; }
+-keep class com.facebook.internal.FetchedAppSettingsManager {
+    public static void setIsUnityInit(boolean);
+}
+-keep class com.facebook.appevents.codeless.ViewIndexer {
+    public static void sendToServerUnityInstance(java.lang.String);
+}
+# Meta 18.3 reads these GMS APIs by name. GooglePlayServicesUtil inherits the method from Light.
+-keep class com.google.android.gms.common.GooglePlayServicesUtil {
+    public static int isGooglePlayServicesAvailable(android.content.Context);
+}
+-keep class com.google.android.gms.common.GooglePlayServicesUtilLight {
+    public static int isGooglePlayServicesAvailable(android.content.Context);
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+    public static com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
+    public java.lang.String getId();
+    public boolean isLimitAdTrackingEnabled();
+}
+
+# FirebaseConsentBridge calls the Android Crashlytics opt-in API through Unity JNI.
+-keep class com.google.firebase.crashlytics.FirebaseCrashlytics {
+    public static com.google.firebase.crashlytics.FirebaseCrashlytics getInstance();
+    public void sendUnsentReports();
+    public void deleteUnsentReports();
+}
+-keep class com.adjust.sdk.** { *; }
+-keep class com.gameanalytics.sdk.** { *; }

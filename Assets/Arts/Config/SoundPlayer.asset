@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bfa9e5110a14f4298b5295d67fb07e, type: 3}
+  m_Name: SoundPlayer
+  m_EditorClassIdentifier: 
+  soundDatas:
+  - soundKey: bgm
+    audioData: {fileID: 8300000, guid: 7c65dd0242c164e84a10e17974eafbff, type: 3}
+    Volume: 1
+  - soundKey: ui_button
+    audioData: {fileID: 8300000, guid: 1b46ba1353acc488cb505eb4a09dc589, type: 3}
+    Volume: 1
+  - soundKey: btn
+    audioData: {fileID: 8300000, guid: 1b46ba1353acc488cb505eb4a09dc589, type: 3}
+    Volume: 1
+  - soundKey: effect_damage
+    audioData: {fileID: 8300000, guid: 0ab9b9fc298af49b2abbf1527e673c2c, type: 3}
+    Volume: 0.5
+  - soundKey: effect_card_choose
+    audioData: {fileID: 8300000, guid: 6047523c7d4644e6484d608eefffc564, type: 3}
+    Volume: 1
+  - soundKey: effect_game_over
+    audioData: {fileID: 8300000, guid: f0419098e48ae43b79eb22f01deac683, type: 3}
+    Volume: 1
+  - soundKey: effect_game_clear
+    audioData: {fileID: 8300000, guid: 99427fd64ce2a4d409d24dbc0866227f, type: 3}
+    Volume: 1
+  - soundKey: effect_dice_merge
+    audioData: {fileID: 8300000, guid: 3af2ce782197740359aa9f329a33ee6e, type: 3}
+    Volume: 0.7
+  - soundKey: bulletshoot_sfx
+    audioData: {fileID: 8300000, guid: 849e5c8094bb4490280f5be7076e0d34, type: 3}
+    Volume: 0.45
+  - soundKey: effect_luckyspin_pick
+    audioData: {fileID: 8300000, guid: efedf2b176e4643fb9ab01cb6e3ca962, type: 3}
+    Volume: 1
+  - soundKey: reward_arrival
+    audioData: {fileID: 8300000, guid: e2f16dba53b1499cbe4807c3be1875ca, type: 3}
+    Volume: 0.48
+  - soundKey: effect_levelup_reward
+    audioData: {fileID: 8300000, guid: 0fc99d8447bc348d8877d53c510b9b25, type: 3}
+    Volume: 1
+  TestAudioClip: {fileID: 0}
+  TestEditorVolume: 1

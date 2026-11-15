@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae061b15c1474e4481773da0cbb384c, type: 3}
+  m_Name: Define
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - ingame_start_angle
+  - start_income_value
+  - start_box_count
+  - base_hp
+  - invicible_time
+  - ingame_ad_money
+  - equip_item_level_gold_cost
+  - equip_item_level_count
+  - daily_reward_reset_time
+  - onetime_currency_ratio
+  - onetime_currency_ratio_before
+  - onetime_rank_loading_period
+  - onetime_repeat_winner
+  - enemy_unit_onetime_kill
+  - bag_bank_time
+  - bag_count
+  mSecondKey: []
+  mDataList:
+  - _idx: ingame_start_angle
+    _value: 10
+  - _idx: start_income_value
+    _value: 200
+  - _idx: start_box_count
+    _value: 4
+  - _idx: base_hp
+    _value: 50
+  - _idx: invicible_time
+    _value: 15
+  - _idx: ingame_ad_money
+    _value: 50
+  - _idx: equip_item_level_gold_cost
+    _value: 50
+  - _idx: equip_item_level_count
+    _value: 1
+  - _idx: daily_reward_reset_time
+    _value: 5000
+  - _idx: onetime_currency_ratio
+    _value: 100
+  - _idx: onetime_currency_ratio_before
+    _value: 20
+  - _idx: onetime_rank_loading_period
+    _value: 25
+  - _idx: onetime_repeat_winner
+    _value: 1000
+  - _idx: enemy_unit_onetime_kill
+    _value: 3
+  - _idx: bag_bank_time
+    _value: 300
+  - _idx: bag_count
+    _value: 15

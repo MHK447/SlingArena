@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ecd752159fb64fbea7c8932839812d0, type: 3}
+  m_Name: RewardInfo
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 6
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  - 9
+  mSecondKey:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 8
+  - 9
+  - 1
+  - 2
+  - 3
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 301
+  - 302
+  - 303
+  - 304
+  - 305
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
+  - 501
+  - 502
+  - 503
+  - 504
+  - 505
+  - 601
+  - 602
+  - 603
+  - 604
+  - 605
+  - 701
+  - 702
+  - 703
+  - 704
+  - 705
+  - 801
+  - 802
+  - 803
+  - 804
+  - 805
+  mDataList:
+  - _reward_type: 1
+    _reward_idx: 2
+    _name: str_name_reward_1_2
+    _desc: str_desc_reward_1_2
+    _img: Common_Icon_Goods_Mineral
+  - _reward_type: 1
+    _reward_idx: 3
+    _name: str_name_reward_1_3
+    _desc: str_desc_emerald
+    _img: Common_Icon_Goods_Garnet
+  - _reward_type: 1
+    _reward_idx: 4
+    _name: str_name_reward_1_4
+    _desc: str_desc_luckystone
+    _img: Common_Icon_Goods_Stone
+  - _reward_type: 1
+    _reward_idx: 5
+    _name: str_shop_name_currency_gem
+    _desc: str_desc_gem
+    _img: Common_Icon_Goods_Gem
+  - _reward_type: 1
+    _reward_idx: 6
+    _name: str_name_reward_1_6
+    _desc: str_desc_reward_1_6
+    _img: Common_Icon_Goods_ArtifactShard
+  - _reward_type: 1
+    _reward_idx: 8
+    _name: str_name_reward_1_8
+    _desc: str_desc_reward_1_8
+    _img: Common_Icon_Goods_LuckyverseCoin
+  - _reward_type: 1
+    _reward_idx: 9
+    _name: str_name_reward_1_9
+    _desc: str_desc_reward_1_9
+    _img: Common_Icon_Goods_UniverseCoin
+  - _reward_type: 6
+    _reward_idx: 1
+    _name: str_name_reward_6_1
+    _desc: str_desc_reward_6_1
+    _img: Common_Icon_Goods_Ticket_01
+  - _reward_type: 6
+    _reward_idx: 2
+    _name: str_name_reward_6_2
+    _desc: str_desc_reward_6_2
+    _img: Common_Icon_Goods_Onetime_02
+  - _reward_type: 6
+    _reward_idx: 3
+    _name: str_name_reward_6_3
+    _desc: str_desc_reward_6_3
+    _img: Common_Icon_Goods_Onetime_00
+  - _reward_type: 6
+    _reward_idx: 7
+    _name: str_name_reward_6_1
+    _desc: str_desc_reward_6_1
+    _img: Common_Icon_SilverCoinReward_X2
+  - _reward_type: 6
+    _reward_idx: 8
+    _name: str_name_reward_6_8
+    _desc: str_desc_package_key_1
+    _img: Common_Icon_Goods_KeySilver
+  - _reward_type: 6
+    _reward_idx: 9
+    _name: str_name_reward_9_1
+    _desc: str_desc_package_key_2
+    _img: Common_Icon_Goods_KeyGold
+  - _reward_type: 6
+    _reward_idx: 10
+    _name: str_name_reward_6_10
+    _desc: str_desc_reward_6_10
+    _img: Common_Icon_Goods_Ticket_VIP
+  - _reward_type: 6
+    _reward_idx: 11
+    _name: str_name_reward_6_11
+    _desc: str_desc_reward_6_11
+    _img: Common_Icon_Goods_Ticket_Luckyverse
+  - _reward_type: 6
+    _reward_idx: 12
+    _name: str_name_reward_6_12
+    _desc: str_desc_reward_6_12
+    _img: Common_Icon_Goods_RankBuff
+  - _reward_type: 6
+    _reward_idx: 13
+    _name: str_name_reward_6_13
+    _desc: str_desc_reward_6_13
+    _img: Common_Icon_Goods_LabBuff
+  - _reward_type: 6
+    _reward_idx: 14
+    _name: str_name_reward_6_14
+    _desc: str_desc_reward_6_14
+    _img: Common_Icon_Goods_UniverseCoin_02
+  - _reward_type: 6
+    _reward_idx: 15
+    _name: str_name_reward_6_15
+    _desc: str_desc_reward_6_15
+    _img: Common_Icon_Goods_LuckyverseBuff
+  - _reward_type: 8
+    _reward_idx: 1
+    _name: str_name_reward_8_1
+    _desc: str_desc_reward_8_1
+    _img: Common_Icon_TowerReward_Box_01
+  - _reward_type: 8
+    _reward_idx: 2
+    _name: str_name_reward_8_2
+    _desc: str_desc_reward_8_2
+    _img: Common_Icon_TowerReward_Box_02
+  - _reward_type: 8
+    _reward_idx: 3
+    _name: str_name_reward_8_3
+    _desc: str_desc_reward_8_3
+    _img: Common_Icon_TowerReward_Box_03
+  - _reward_type: 8
+    _reward_idx: 4
+    _name: str_name_reward_8_4
+    _desc: str_desc_reward_8_4
+    _img: Common_Icon_TowerReward_Box_04
+  - _reward_type: 8
+    _reward_idx: 5
+    _name: str_name_reward_8_5
+    _desc: str_desc_reward_8_5
+    _img: Common_Icon_TowerReward_Box_05
+  - _reward_type: 8
+    _reward_idx: 6
+    _name: str_name_reward_8_6
+    _desc: str_desc_reward_8_6
+    _img: Common_Icon_Goods_Mythicartifact_01
+  - _reward_type: 8
+    _reward_idx: 7
+    _name: str_name_reward_8_7
+    _desc: str_desc_reward_8_7
+    _img: Common_Icon_Goods_Mythicartifact_02
+  - _reward_type: 8
+    _reward_idx: 8
+    _name: str_name_reward_8_8
+    _desc: str_desc_reward_8_8
+    _img: Common_Icon_Goods_Ultmateartifact
+  - _reward_type: 9
+    _reward_idx: 101
+    _name: str_name_eveolution_1_1
+    _desc: str_desc_eveolution_1_1
+    _img: PowerUp_Icon_PowerUpStats_HP
+  - _reward_type: 9
+    _reward_idx: 102
+    _name: str_name_eveolution_1_2
+    _desc: str_desc_eveolution_1_2
+    _img: PowerUp_Icon_PowerUpChoices_Lucky
+  - _reward_type: 9
+    _reward_idx: 103
+    _name: str_name_eveolution_1_3
+    _desc: str_desc_eveolution_1_3
+    _img: PowerUp_Icon_EvolutionPassive_Lucky
+  - _reward_type: 9
+    _reward_idx: 104
+    _name: str_name_eveolution_1_4
+    _desc: str_desc_eveolution_1_4
+    _img: PowerUp_Icon_EvolutionActive_Lucky
+  - _reward_type: 9
+    _reward_idx: 105
+    _name: str_name_eveolution_1_5
+    _desc: str_desc_eveolution_1_5
+    _img: PowerUp_Icon_EvolutionBoost_All_HP
+  - _reward_type: 9
+    _reward_idx: 201
+    _name: str_name_eveolution_2_1
+    _desc: str_desc_eveolution_2_1
+    _img: PowerUp_Icon_PowerUpStats_AtkSpd
+  - _reward_type: 9
+    _reward_idx: 202
+    _name: str_name_eveolution_2_2
+    _desc: str_desc_eveolution_2_2
+    _img: PowerUp_Icon_PowerUpChoices_Frost
+  - _reward_type: 9
+    _reward_idx: 203
+    _name: str_name_eveolution_2_3
+    _desc: str_desc_eveolution_2_3
+    _img: PowerUp_Icon_EvolutionPassive_Frost
+  - _reward_type: 9
+    _reward_idx: 204
+    _name: str_name_eveolution_2_4
+    _desc: str_desc_eveolution_2_4
+    _img: PowerUp_Icon_EvolutionActive_Frost
+  - _reward_type: 9
+    _reward_idx: 205
+    _name: str_name_eveolution_2_5
+    _desc: str_desc_eveolution_2_5
+    _img: PowerUp_Icon_EvolutionBoost_All_Shield
+  - _reward_type: 9
+    _reward_idx: 301
+    _name: str_name_eveolution_3_1
+    _desc: str_desc_eveolution_3_1
+    _img: PowerUp_Icon_PowerUpStats_Atk
+  - _reward_type: 9
+    _reward_idx: 302
+    _name: str_name_eveolution_3_2
+    _desc: str_desc_eveolution_3_2
+    _img: PowerUp_Icon_PowerUpChoices_Venom
+  - _reward_type: 9
+    _reward_idx: 303
+    _name: str_name_eveolution_3_3
+    _desc: str_desc_eveolution_3_3
+    _img: PowerUp_Icon_EvolutionPassive_Venom
+  - _reward_type: 9
+    _reward_idx: 304
+    _name: str_name_eveolution_3_4
+    _desc: str_desc_eveolution_3_4
+    _img: PowerUp_Icon_EvolutionActive_Venom
+  - _reward_type: 9
+    _reward_idx: 305
+    _name: str_name_eveolution_3_5
+    _desc: str_desc_eveolution_3_5
+    _img: PowerUp_Icon_EvolutionBoost_All_Atk
+  - _reward_type: 9
+    _reward_idx: 401
+    _name: str_name_eveolution_4_1
+    _desc: str_desc_eveolution_4_1
+    _img: PowerUp_Icon_PowerUpStats_HP
+  - _reward_type: 9
+    _reward_idx: 402
+    _name: str_name_eveolution_4_2
+    _desc: str_desc_eveolution_4_2
+    _img: PowerUp_Icon_PowerUpChoices_Captain
+  - _reward_type: 9
+    _reward_idx: 403
+    _name: str_name_eveolution_4_3
+    _desc: str_desc_eveolution_4_3
+    _img: PowerUp_Icon_EvolutionPassive_Captain
+  - _reward_type: 9
+    _reward_idx: 404
+    _name: str_name_eveolution_4_4
+    _desc: str_desc_eveolution_4_4
+    _img: PowerUp_Icon_EvolutionActive_Captain
+  - _reward_type: 9
+    _reward_idx: 405
+    _name: str_name_eveolution_4_5
+    _desc: str_desc_eveolution_4_5
+    _img: PowerUp_Icon_EvolutionBoost_All_HP
+  - _reward_type: 9
+    _reward_idx: 501
+    _name: str_name_eveolution_5_1
+    _desc: str_desc_eveolution_5_1
+    _img: PowerUp_Icon_PowerUpStats_Atk
+  - _reward_type: 9
+    _reward_idx: 502
+    _name: str_name_eveolution_5_2
+    _desc: str_desc_eveolution_5_2
+    _img: PowerUp_Icon_PowerUpChoices_Spark
+  - _reward_type: 9
+    _reward_idx: 503
+    _name: str_name_eveolution_5_3
+    _desc: str_desc_eveolution_5_3
+    _img: PowerUp_Icon_EvolutionPassive_Spark
+  - _reward_type: 9
+    _reward_idx: 504
+    _name: str_name_eveolution_5_4
+    _desc: str_desc_eveolution_5_4
+    _img: PowerUp_Icon_EvolutionActive_Spark
+  - _reward_type: 9
+    _reward_idx: 505
+    _name: str_name_eveolution_5_5
+    _desc: str_desc_eveolution_5_5
+    _img: PowerUp_Icon_EvolutionBoost_All_CrticalRate
+  - _reward_type: 9
+    _reward_idx: 601
+    _name: str_name_eveolution_6_1
+    _desc: str_desc_eveolution_6_1
+    _img: PowerUp_Icon_PowerUpStats_HP
+  - _reward_type: 9
+    _reward_idx: 602
+    _name: str_name_eveolution_6_2
+    _desc: str_desc_eveolution_6_2
+    _img: PowerUp_Icon_PowerUpChoices_Brady
+  - _reward_type: 9
+    _reward_idx: 603
+    _name: str_name_eveolution_6_3
+    _desc: str_desc_eveolution_6_3
+    _img: PowerUp_Icon_EvolutionPassive_Brady
+  - _reward_type: 9
+    _reward_idx: 604
+    _name: str_name_eveolution_6_4
+    _desc: str_desc_eveolution_6_4
+    _img: PowerUp_Icon_EvolutionActive_Brady
+  - _reward_type: 9
+    _reward_idx: 605
+    _name: str_name_eveolution_6_5
+    _desc: str_desc_eveolution_6_5
+    _img: PowerUp_Icon_EvolutionBoost_All_Critical
+  - _reward_type: 9
+    _reward_idx: 701
+    _name: str_name_eveolution_7_1
+    _desc: str_desc_eveolution_7_1
+    _img: PowerUp_Icon_PowerUpStats_HP
+  - _reward_type: 9
+    _reward_idx: 702
+    _name: str_name_eveolution_7_2
+    _desc: str_desc_eveolution_7_2
+    _img: PowerUp_Icon_PowerUpChoices_Sylvian
+  - _reward_type: 9
+    _reward_idx: 703
+    _name: str_name_eveolution_7_3
+    _desc: str_desc_eveolution_7_3
+    _img: PowerUp_Icon_EvolutionPassive_Sylvian
+  - _reward_type: 9
+    _reward_idx: 704
+    _name: str_name_eveolution_7_4
+    _desc: str_desc_eveolution_7_4
+    _img: PowerUp_Icon_EvolutionActive_Sylvian
+  - _reward_type: 9
+    _reward_idx: 705
+    _name: str_name_eveolution_7_5
+    _desc: str_desc_eveolution_7_5
+    _img: PowerUp_Icon_EvolutionBoost_All_Critical
+  - _reward_type: 9
+    _reward_idx: 801
+    _name: str_name_eveolution_8_1
+    _desc: str_desc_eveolution_8_1
+    _img: PowerUp_Icon_PowerUpStats_AtkSpd
+  - _reward_type: 9
+    _reward_idx: 802
+    _name: str_name_eveolution_8_2
+    _desc: str_desc_eveolution_8_2
+    _img: PowerUp_Icon_PowerUpChoices_Rednose
+  - _reward_type: 9
+    _reward_idx: 803
+    _name: str_name_eveolution_8_3
+    _desc: str_desc_eveolution_8_3
+    _img: PowerUp_Icon_EvolutionPassive_Rednose
+  - _reward_type: 9
+    _reward_idx: 804
+    _name: str_name_eveolution_8_4
+    _desc: str_desc_eveolution_8_4
+    _img: PowerUp_Icon_EvolutionActive_Rednose
+  - _reward_type: 9
+    _reward_idx: 805
+    _name: str_name_eveolution_8_5
+    _desc: str_desc_eveolution_8_5
+    _img: PowerUp_Icon_EvolutionBoost_All_HP

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_Stage
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: iOS
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 4
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 0.5
+    packables:
+    - {fileID: 102900000, guid: ce1c963d6780a4fc09426c11e75f79ce, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 792b0812b23fc47328fa9241d390c5b6: 21300000
+    - c3300007952eb4d1182132a1344d2e07: 21300000
+    - c76d00471cf1f495eb0a7bc64f9f890f: 21300000
+    - 02d0b287cb6b646fbad69914c6fa1e0d: 21300000
+    - c0f05a081de1c4b99879dceb87eba38a: 21300000
+    - 78e6f34adc8c34497a51c1b154843cfe: 21300000
+    - 10bb95da2ef3746738ac678381019d47: 21300000
+    - 67b4108d75dc743f4a3db4f5c9caaa1f: 21300000
+    - d468548d6218f4ab29046838df232e34: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 792b0812b23fc47328fa9241d390c5b6, type: 3}
+  - {fileID: 21300000, guid: c3300007952eb4d1182132a1344d2e07, type: 3}
+  - {fileID: 21300000, guid: c76d00471cf1f495eb0a7bc64f9f890f, type: 3}
+  - {fileID: 21300000, guid: 02d0b287cb6b646fbad69914c6fa1e0d, type: 3}
+  - {fileID: 21300000, guid: c0f05a081de1c4b99879dceb87eba38a, type: 3}
+  - {fileID: 21300000, guid: 78e6f34adc8c34497a51c1b154843cfe, type: 3}
+  - {fileID: 21300000, guid: 10bb95da2ef3746738ac678381019d47, type: 3}
+  - {fileID: 21300000, guid: 67b4108d75dc743f4a3db4f5c9caaa1f, type: 3}
+  - {fileID: 21300000, guid: d468548d6218f4ab29046838df232e34, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Lobby_Map_Stage_4
+  - Lobby_Map_Stage_2
+  - Lobby_Map_Stage_7
+  - Lobby_Map_Stage_5
+  - Lobby_Map_Stage_3
+  - Lobby_Map_Stage_1
+  - Ingame_Frame_S0_R0
+  - Lobby_Map_Stage_6
+  - InGameBg_1
+  m_RenderDataMap: {}
+  m_Tag: Atlas_Stage
+  m_IsVariant: 0

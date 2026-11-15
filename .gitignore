@@ -5,6 +5,7 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+.DS_Store
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -76,6 +77,18 @@ mono_crash.*
 *.unitypackage
 *.unitypackage.meta
 *.app
+
+# Local Android signing keys
+/Assets/AndroidKey.meta
+*.keystore
+*.keystore.meta
+*.jks
+*.jks.meta
+
+# Local Unity editor save and backups
+/Assets/Master.dat
+/Assets/Master.dat.meta
+/Assets/Master.dat.*
 
 # Crashlytics generated file
 crashlytics-build.properties
