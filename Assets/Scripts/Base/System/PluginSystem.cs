@@ -15,13 +15,13 @@ using BanpoFri;
 
 public class PluginSystem
 {
-    public static readonly string googleStoreURL = "https://play.google.com/store/apps/details?id=com.banpofri.dicecastledefense";
     public TpAdxProp ADProp = new TpAdxProp();
     public TpAnalyticsProp AnalyticsProp = new TpAnalyticsProp();
     public TpPlatformLoginProp LoginProp = new TpPlatformLoginProp();
     public TpFirebaseDataProp DataProp = new TpFirebaseDataProp();
 
 #if UNITY_ANDROID && !UNITY_EDITOR
+    private static string GoogleStoreUrl => $"https://play.google.com/store/apps/details?id={Application.identifier}";
     private ReviewManager _reviewManager;
     private PlayReviewInfo _playReviewInfo = null;
 #elif UNITY_IOS && !UNITY_EDITOR
@@ -112,7 +112,7 @@ public class PluginSystem
 #if UNITY_ANDROID && !UNITY_EDITOR
         if(_playReviewInfo == null)
         {
-            Application.OpenURL(googleStoreURL);
+            Application.OpenURL(GoogleStoreUrl);
             return;
         }
         GameRoot.Instance.StartCoroutine(ReviewInProgressAfter());
@@ -150,7 +150,7 @@ public class PluginSystem
         _playReviewInfo = null; // Reset the object
         if (launchFlowOperation.Error != ReviewErrorCode.NoError)
         {
-            Application.OpenURL(googleStoreURL);
+            Application.OpenURL(GoogleStoreUrl);
             // Log error. For example, using requestFlowOperation.Error.ToString().
             BpLog.Log(launchFlowOperation.Error.ToString());
             yield break;

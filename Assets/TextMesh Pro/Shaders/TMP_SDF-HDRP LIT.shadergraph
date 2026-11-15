@@ -1,6 +1,6 @@
 {
     "m_SGVersion": 3,
-    utorialype": "UnityEditor.ShaderGraph.GraphData",
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "386c36a1c4c34ea29deb680fb82cfe8b",
     "m_Properties": [
         {
@@ -414,7 +414,7 @@
             "m_Id": "daaf032a109749a88c9b8ff8e1f8b541"
         }
     ],
-    artickyNoteDatas": [],
+    "m_StickyNoteDatas": [],
     "m_Edges": [
         {
             "m_OutputSlot": {
